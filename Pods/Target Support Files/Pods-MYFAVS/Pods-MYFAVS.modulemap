@@ -1,0 +1,6 @@
+framework module Pods_MYFAVS {
+  umbrella header "Pods-MYFAVS-umbrella.h"
+
+  export *
+  module * { export * }
+}
