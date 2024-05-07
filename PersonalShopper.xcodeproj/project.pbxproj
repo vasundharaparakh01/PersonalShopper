@@ -111,7 +111,6 @@
 		6AD5CA4A286ED143003C97CE /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CA49286ED143003C97CE /* PendingViewController.swift */; };
 		6AD5CA4C286F1C38003C97CE /* TermsConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CA4B286F1C38003C97CE /* TermsConditionsViewController.swift */; };
 		6ADCB53228ABAEB400D73E1A /* FloatingLabelChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADCB53128ABAEB400D73E1A /* FloatingLabelChangePassword.swift */; };
-		6AEAF11728857205008C0F00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AEAF11628857205008C0F00 /* GoogleService-Info.plist */; };
 		6AEAF11D288589AF008C0F00 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAF11C288589AF008C0F00 /* NotificationsViewController.swift */; };
 		6AECFD53288AB83700751244 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AECFD4F288AB83600751244 /* UIApplication+Extension.swift */; };
 		6AECFD54288AB83700751244 /* HSAppleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AECFD50288AB83600751244 /* HSAppleSignIn.swift */; };
@@ -152,7 +151,6 @@
 		0BC787B32844A7DC00E2D682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BC787B52844A7DE00E2D682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC787B82844A7DE00E2D682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BC787BA2844A7DF00E2D682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CD52EE1B835E224882636E /* Pods-MYFAVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYFAVS.debug.xcconfig"; path = "Target Support Files/Pods-MYFAVS/Pods-MYFAVS.debug.xcconfig"; sourceTree = "<group>"; };
 		6A04E656287EA60000A6F004 /* FavsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsDetailsViewController.swift; sourceTree = "<group>"; };
 		6A058B7C285C4E1A003EBD64 /* ConnectUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectUserViewController.swift; sourceTree = "<group>"; };
@@ -248,7 +246,6 @@
 		6AD5CA49286ED143003C97CE /* PendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingViewController.swift; sourceTree = "<group>"; };
 		6AD5CA4B286F1C38003C97CE /* TermsConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsViewController.swift; sourceTree = "<group>"; };
 		6ADCB53128ABAEB400D73E1A /* FloatingLabelChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelChangePassword.swift; sourceTree = "<group>"; };
-		6AEAF11628857205008C0F00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AEAF11C288589AF008C0F00 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		6AECFD4F288AB83600751244 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		6AECFD50288AB83600751244 /* HSAppleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAppleSignIn.swift; sourceTree = "<group>"; };
@@ -312,7 +309,6 @@
 		0BC787AB2844A7DC00E2D682 /* MYFAVS */ = {
 			isa = PBXGroup;
 			children = (
-				6AEAF11628857205008C0F00 /* GoogleService-Info.plist */,
 				6A8B422428520E5200AA517A /* MYFAVS.entitlements */,
 				6A8B42222851D4A300AA517A /* Enums.swift */,
 				6AC2573B2864728E000327F2 /* UtilityClasses */,
@@ -332,7 +328,6 @@
 				0BC787B72844A7DE00E2D682 /* LaunchScreen.storyboard */,
 				0BC787AC2844A7DC00E2D682 /* AppDelegate.swift */,
 				0BC787AE2844A7DC00E2D682 /* SceneDelegate.swift */,
-				0BC787BA2844A7DF00E2D682 /* Info.plist */,
 			);
 			path = MYFAVS;
 			sourceTree = "<group>";
@@ -663,7 +658,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BC787A42844A7DC00E2D682 /* Build configuration list for PBXProject "MYFAVS" */;
+			buildConfigurationList = 0BC787A42844A7DC00E2D682 /* Build configuration list for PBXProject "PersonalShopper" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -713,7 +708,6 @@
 				6AEF42FD289BD672008884A8 /* Poppins-BoldItalic.ttf in Resources */,
 				6A8B42102851BDA400AA517A /* BAHNSCHRIFT 4.TTF in Resources */,
 				6AEF4306289BD672008884A8 /* Poppins-LightItalic.ttf in Resources */,
-				6AEAF11728857205008C0F00 /* GoogleService-Info.plist in Resources */,
 				6A692B012853518200239FA0 /* Sen-ExtraBold.ttf in Resources */,
 				6A915084284F715400033B16 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				6A915073284F715400033B16 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
@@ -1110,7 +1104,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BC787A42844A7DC00E2D682 /* Build configuration list for PBXProject "MYFAVS" */ = {
+		0BC787A42844A7DC00E2D682 /* Build configuration list for PBXProject "PersonalShopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BC787BB2844A7DF00E2D682 /* Debug */,
