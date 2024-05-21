@@ -1,6 +1,6 @@
 //
 //  Extension.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 08/06/22.
 //

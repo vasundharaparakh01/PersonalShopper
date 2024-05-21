@@ -1,6 +1,6 @@
 //
 //  FloatingLabelChangePassword.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 16/08/22.
 //

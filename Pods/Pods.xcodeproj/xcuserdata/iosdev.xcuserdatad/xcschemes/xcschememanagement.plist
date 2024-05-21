@@ -158,7 +158,7 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
-		<key>Pods-MYFAVS.xcscheme</key>
+		<key>Pods-appName.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

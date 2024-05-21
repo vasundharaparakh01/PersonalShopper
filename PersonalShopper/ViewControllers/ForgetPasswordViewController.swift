@@ -1,6 +1,6 @@
 //
 //  ForgetPasswordViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 03/08/22.
 //

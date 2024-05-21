@@ -1,6 +1,6 @@
 //
 //  InviteFriendsViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 27/07/22.
 //
@@ -49,7 +49,7 @@ class InviteFriendsViewController: UIViewController {
 ////        }
 //        let messageVC = MFMessageComposeViewController()
 //
-//        messageVC.body = "Your friend \(self.username)has invited you to use MyFavs App.\n\nView on Appstore - https://apps.apple.com/us/app/myfavs/id1626843808";
+//        messageVC.body = "Your friend \(self.username)has invited you to use appName App.\n\nView on Appstore - https://apps.apple.com/us/app/appName/id1626843808";
 //
 //        messageVC.recipients = [mobile]
 //        messageVC.messageComposeDelegate = self;
@@ -57,7 +57,7 @@ class InviteFriendsViewController: UIViewController {
 //        self.present(messageVC, animated: false, completion: nil)
         
         
-        let firstActivityItem = "Your friend \(self.username)has invited you to use MyFavs App.\n\nTo download iOS app - https://apps.apple.com/us/app/myfavs/id1626843808\n\nTo download android app - https://play.google.com/store/apps/details?id=com.myfavs"
+        let firstActivityItem = "Your friend \(self.username)has invited you to use appName App.\n\nTo download iOS app - https://apps.apple.com/us/app/appName/id1626843808\n\nTo download android app - https://play.google.com/store/apps/details?id=com.appName"
     
 
         // Setting url
@@ -134,7 +134,7 @@ extension InviteFriendsViewController {
 
     }
     
-    func searchMyFavsByName(text: String) {
+    func searchappNameByName(text: String) {
         print("Search:=====",text)
         let filtered = self.tempFriends.filter { ($0["name"]! as AnyObject).localizedCaseInsensitiveContains(text) }
 
@@ -252,7 +252,7 @@ extension InviteFriendsViewController {
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
               let delegate = windowScene.delegate as? SceneDelegate, let window = delegate.window else { return }
         
-        hud.label.text = "Syncing contacts to fetch your recommended friends on MyFavs!"
+        hud.label.text = "Syncing contacts to fetch your recommended friends on appName!"
         hud.isUserInteractionEnabled = false
         window.isUserInteractionEnabled = false
         
@@ -316,7 +316,7 @@ extension InviteFriendsViewController {
         let url = BaseUrl + kSyncContactApi
         let parameters: [String: Any] = ["phonebook": phoneArray]
 
-        APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on MyFavs!", url: url, params: parameters, view: self.view) { success, response, responseJson, errorMsg  in
+        APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on appName!", url: url, params: parameters, view: self.view) { success, response, responseJson, errorMsg  in
             
             if success {
                 if let data = response {
@@ -376,9 +376,9 @@ extension InviteFriendsViewController: UITextFieldDelegate {
         if let char = string.cString(using: String.Encoding.utf8) {
             let isBackSpace = strcmp(char, "\\b")
             if (isBackSpace == -92) {
-                self.searchMyFavsByName(text: String(textField.text!.dropLast()))
+                self.searchappNameByName(text: String(textField.text!.dropLast()))
             }else {
-                self.searchMyFavsByName(text: (textField.text ?? "") + string)
+                self.searchappNameByName(text: (textField.text ?? "") + string)
             }
         }
         

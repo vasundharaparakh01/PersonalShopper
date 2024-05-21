@@ -1,6 +1,6 @@
 //
-//  MyFavsViewController.swift
-//  MYFAVS
+//  appNameViewController.swift
+//  appName
 //
 //  Created by iOS Dev on 14/06/22.
 //
@@ -10,9 +10,9 @@ import SideMenu
 import SDWebImage
 
 
-class MyFavsViewController: UIViewController {
+class appNameViewController: UIViewController {
     
-    @IBOutlet weak var myFavsCollectionView: UICollectionView!
+    @IBOutlet weak var appNameCollectionView: UICollectionView!
     @IBOutlet weak var notificationBadgeView: UIView!
 
     var favsArray = [GetAllProductModelDataItems]()
@@ -26,7 +26,7 @@ class MyFavsViewController: UIViewController {
         self.hideKeyboardWhenTappedAround()
         self.initialSetup()
         
-        self.myFavsCollectionView.refreshControl = self.refreshControl
+        self.appNameCollectionView.refreshControl = self.refreshControl
         refreshControl.addTarget(self, action: #selector(refreshData(_:)), for: .valueChanged)
     }
     
@@ -110,7 +110,7 @@ class MyFavsViewController: UIViewController {
     }
     
     @IBAction func uploadButtonAction(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle:nil).instantiateViewController(withIdentifier: "MyFavsPopUpViewController") as! MyFavsPopUpViewController
+        let vc = UIStoryboard(name: "Main", bundle:nil).instantiateViewController(withIdentifier: "appNamePopUpViewController") as! appNamePopUpViewController
         vc.delegate = self
         vc.modalPresentationStyle = .overCurrentContext
         vc.modalTransitionStyle = .crossDissolve
@@ -118,7 +118,7 @@ class MyFavsViewController: UIViewController {
     }
     
     @objc func editButtonAction(sender: UIButton) {
-        let vc = UIStoryboard(name: "Main", bundle:nil).instantiateViewController(withIdentifier: "MyFavsPopUpViewController") as! MyFavsPopUpViewController
+        let vc = UIStoryboard(name: "Main", bundle:nil).instantiateViewController(withIdentifier: "appNamePopUpViewController") as! appNamePopUpViewController
         vc.delegate = self
 
         vc.isEdit = true
@@ -163,7 +163,7 @@ class MyFavsViewController: UIViewController {
             name = name + "\n\(url)"
             productUrl = url
         }
-        name = name + "\nCheck out MYFAVS to shop the right sizes for your friends and family.\nDownload in Android\nhttps://play.google.com/store/apps/details?id=com.myfavs\nDownload in iOS"
+        name = name + "\nCheck out appName to shop the right sizes for your friends and family.\nDownload in Android\nhttps://play.google.com/store/apps/details?id=com.appName\nDownload in iOS"
 
         // If you want to use an image
         var itemImage = UIImage()
@@ -175,8 +175,8 @@ class MyFavsViewController: UIViewController {
         }
 
         let firstActivityItem = name
-        let secondActivityItem : NSURL = NSURL(string: "https://apps.apple.com/us/app/myfavs/id1626843808")!
-//        let thirdActivityItem = "\nDownload in Android\nhttps://play.google.com/store/apps/details?id=com.myfavs"
+        let secondActivityItem : NSURL = NSURL(string: "https://apps.apple.com/us/app/appName/id1626843808")!
+//        let thirdActivityItem = "\nDownload in Android\nhttps://play.google.com/store/apps/details?id=com.appName"
 
         let image : UIImage = itemImage
         let activityViewController : UIActivityViewController = UIActivityViewController(
@@ -215,13 +215,13 @@ class MyFavsViewController: UIViewController {
 }
 
 // MARK: - Helper methods
-extension MyFavsViewController {
+extension appNameViewController {
     
     func initialSetup() {
         self.callGetFavApi()
     }
 
-    func searchMyFavsByName(text: String) {
+    func searchappNameByName(text: String) {
         print("Search:=====",text)
         let filtered = self.favsArray.filter { $0.name!.localizedCaseInsensitiveContains(text) }
 
@@ -231,7 +231,7 @@ extension MyFavsViewController {
             self.searchFavsArray = self.favsArray
         }
         
-        self.myFavsCollectionView.reloadData()
+        self.appNameCollectionView.reloadData()
     }
     
     // MARK: - Webservice methods
@@ -247,7 +247,7 @@ extension MyFavsViewController {
                         if modelObj.success == true {
                             self.favsArray = modelObj.data?.items ?? []
                             self.searchFavsArray = self.favsArray
-                            self.myFavsCollectionView.reloadData()
+                            self.appNameCollectionView.reloadData()
                         }else {
                             if modelObj.message == sessionExpiredCheckMsg {
                                 AlertController.alert(title: sessionExpiredTitle, message: sessionExpiredSubTitle, buttons: ["Ok"]) { UIAlertAction, selectedIndex in
@@ -299,15 +299,15 @@ extension MyFavsViewController {
 }
 
 // MARK: - UITextFieldDelegate methods
-extension MyFavsViewController: UITextFieldDelegate {
+extension appNameViewController: UITextFieldDelegate {
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if let char = string.cString(using: String.Encoding.utf8) {
             let isBackSpace = strcmp(char, "\\b")
             if (isBackSpace == -92) {
-                self.searchMyFavsByName(text: String(textField.text!.dropLast()))
+                self.searchappNameByName(text: String(textField.text!.dropLast()))
             }else {
-                self.searchMyFavsByName(text: (textField.text ?? "") + string)
+                self.searchappNameByName(text: (textField.text ?? "") + string)
             }
         }
         
@@ -317,7 +317,7 @@ extension MyFavsViewController: UITextFieldDelegate {
 }
 
 // MARK: - UICollectionViewDelegatem & UICollectionViewDataSource methods
-extension MyFavsViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension appNameViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.searchFavsArray.count
@@ -365,9 +365,9 @@ extension MyFavsViewController : UICollectionViewDelegate, UICollectionViewDataS
     
 }
 
-extension MyFavsViewController: MyFavsPopUpViewDelegate {
+extension appNameViewController: appNamePopUpViewDelegate {
     
-    func dismissMyFavsPopUp() {
+    func dismissappNamePopUp() {
         self.callGetFavApi()
     }
     

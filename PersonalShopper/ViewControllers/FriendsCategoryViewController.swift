@@ -1,6 +1,6 @@
 //
 //  FriendsCategoryViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 10/08/22.
 //

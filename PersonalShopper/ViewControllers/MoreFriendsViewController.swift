@@ -1,6 +1,6 @@
 //
 //  MoreFriendsViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 26/08/22.
 //
@@ -73,8 +73,8 @@ class MoreFriendsViewController: UIViewController {
     
     @IBAction func heartButtonAction(_ sender: Any) {
         let story = UIStoryboard(name: "Main", bundle:nil)
-//        let vc = story.instantiateViewController(withIdentifier: "MyFavsViewController") as! MyFavsViewController
-        let vc = TabBarVCShared.shared.MyFavsVC
+//        let vc = story.instantiateViewController(withIdentifier: "appNameViewController") as! appNameViewController
+        let vc = TabBarVCShared.shared.appNameVC
         
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
             let delegate = windowScene.delegate as? SceneDelegate else { return }
@@ -163,7 +163,7 @@ extension MoreFriendsViewController {
 //        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
 //              let delegate = windowScene.delegate as? SceneDelegate, let window = delegate.window else { return }
 //
-//        hud.label.text = "Syncing contacts to fetch your recommended friends on MyFavs!"
+//        hud.label.text = "Syncing contacts to fetch your recommended friends on appName!"
 //        hud.isUserInteractionEnabled = false
 //        window.isUserInteractionEnabled = false
 //
@@ -285,7 +285,7 @@ extension MoreFriendsViewController {
 //        let url = BaseUrl + kSyncContactApi
 //        let parameters: [String: Any] = ["phonebook": phoneArray]
 //
-//        APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on MyFavs!", url: url, params: parameters, view: self.view) { success, response, responseJson, errorMsg  in
+//        APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on appName!", url: url, params: parameters, view: self.view) { success, response, responseJson, errorMsg  in
 //
 //            if success {
 //                if let data = response {

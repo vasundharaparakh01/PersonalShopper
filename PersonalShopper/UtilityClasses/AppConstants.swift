@@ -1,6 +1,6 @@
 //
 //  AppConstant.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 20/06/22.
 //
@@ -13,14 +13,14 @@ import GoogleSignIn
 //let APPDELEGATE = UIApplication.shared.delegate as! SceneDelegate
 
 
-let signInConfig = GIDConfiguration(clientID: "201782800631-0lmf83igrpf2vpeu2k6dc1d5rumn2mca.apps.googleusercontent.com")
+let signInConfig = GIDConfiguration(clientID: "key")
 let kFcmToken = "fcmToken"
 
 
 // Base url
-//let BaseUrl = "http://54.190.192.105:9127/api/V1/" // Dev
-//let BaseUrl = "http://18.190.16.70:9127/api/V1/" // Prod
-let BaseUrl = "https://admin.downloadmyfavs.com:444/api/V1/" // Prod
+//let BaseUrl = "http://" // Dev
+//let BaseUrl = "http://" // Prod
+let BaseUrl = "https://" // Prod
 
 // Api endpoints
 let kAuth = "auth/"
@@ -122,7 +122,7 @@ let forgotPasswordSuccess = "An email has been sent to your email address. Follo
 let logOutTitle         = "Logout"
 let logOutSubTitle      = "Are you sure you want to logout?"
 
-let appName         = "MyFavs"
+let appName         = "appName"
 let deleteTitle         = "Delete"
 let deleteSubTitle      = "Do you want to delete?"
 

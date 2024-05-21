@@ -1,6 +1,6 @@
 //
 //  SignupModel.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 20/06/22.
 //

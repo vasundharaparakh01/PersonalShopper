@@ -1,6 +1,6 @@
 //
 //  PendingViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 01/07/22.
 //

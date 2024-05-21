@@ -1,6 +1,6 @@
 //
 //  ChangePasswordViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 07/07/22.
 //

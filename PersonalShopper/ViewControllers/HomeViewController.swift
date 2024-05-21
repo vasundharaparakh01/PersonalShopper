@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by Chandani Barsagade on 5/31/22.
 //
@@ -122,7 +122,7 @@ class HomeViewController: UIViewController {
     @IBAction func heartButtonAction(_ sender: Any) {
         
         let story = UIStoryboard(name: "Main", bundle:nil)
-        let vc = TabBarVCShared.shared.MyFavsVC
+        let vc = TabBarVCShared.shared.appNameVC
 //        UIApplication.shared.windows.first?.rootViewController = vc
 //        UIApplication.shared.windows.first?.makeKeyAndVisible()
         

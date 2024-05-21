@@ -1,6 +1,6 @@
 //
-//  MyFavsPopUpViewController.swift
-//  MYFAVS
+//  appNamePopUpViewController.swift
+//  appName
 //
 //  Created by iOS Dev on 15/06/22.
 //
@@ -9,13 +9,13 @@ import UIKit
 import AVFoundation
 import SDWebImage
 
-protocol MyFavsPopUpViewDelegate {
-    func dismissMyFavsPopUp()
+protocol appNamePopUpViewDelegate {
+    func dismissappNamePopUp()
 }
 
-class MyFavsPopUpViewController: UIViewController {
+class appNamePopUpViewController: UIViewController {
 
-    var delegate: MyFavsPopUpViewDelegate?
+    var delegate: appNamePopUpViewDelegate?
     
     @IBOutlet weak var linkView: UIView!
     @IBOutlet weak var locationView: UIView!
@@ -243,7 +243,7 @@ class MyFavsPopUpViewController: UIViewController {
 }
 
 // MARK: - Helper methods
-extension MyFavsPopUpViewController {
+extension appNamePopUpViewController {
     
     func initialSetup() {
         //        self.sizeArray = ["S","M","L","XL","XXL"]
@@ -722,7 +722,7 @@ extension MyFavsPopUpViewController {
                             AlertController.alert(title: appName, message: modelObj.message ?? "", buttons: ["Ok"]) { UIAlertAction, selectedIndex in
                                 self.dismiss(animated: true) {
                                     if (self.delegate != nil) {
-                                        self.delegate?.dismissMyFavsPopUp()
+                                        self.delegate?.dismissappNamePopUp()
                                     }
                                 }
                             }
@@ -759,7 +759,7 @@ extension MyFavsPopUpViewController {
                             AlertController.alert(title: appName, message: modelObj.message ?? "", buttons: ["Ok"]) { UIAlertAction, selectedIndex in
                                 self.dismiss(animated: true) {
                                     if (self.delegate != nil) {
-                                        self.delegate?.dismissMyFavsPopUp()
+                                        self.delegate?.dismissappNamePopUp()
                                     }
                                 }
                             }
@@ -785,7 +785,7 @@ extension MyFavsPopUpViewController {
 }
 
 // MARK: - UICollectionViewDelegatem & UICollectionViewDataSource methods
-extension MyFavsPopUpViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension appNamePopUpViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if self.isEdit && !self.isImageUpdate {
@@ -843,7 +843,7 @@ extension MyFavsPopUpViewController : UICollectionViewDelegate, UICollectionView
 
 
 // MARK: - UINavigationControllerDelegate, UIImagePickerControllerDelegate methods
-extension MyFavsPopUpViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+extension appNamePopUpViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
@@ -868,7 +868,7 @@ extension MyFavsPopUpViewController: UINavigationControllerDelegate, UIImagePick
 
 
 //MARK: - UITextFieldDelegates Methods
-extension MyFavsPopUpViewController: UITextFieldDelegate {
+extension appNamePopUpViewController: UITextFieldDelegate {
         
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField.returnKeyType == .next {

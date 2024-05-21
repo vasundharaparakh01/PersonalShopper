@@ -1,6 +1,6 @@
 //
 //  RefreshControl.swift
-//  MYFAVS
+//  appName
 //
 //  Created by macbook on 02/01/23.
 //

@@ -1,6 +1,6 @@
 //
 //  LoginViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by Chandani Barsagade on 5/30/22.
 //

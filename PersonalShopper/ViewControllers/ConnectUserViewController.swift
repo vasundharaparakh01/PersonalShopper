@@ -1,6 +1,6 @@
 //
 //  ConnectUserViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 17/06/22.
 //
@@ -96,8 +96,8 @@ class ConnectUserViewController: UIViewController {
     
     @IBAction func heartButtonAction(_ sender: Any) {
         let story = UIStoryboard(name: "Main", bundle:nil)
-//        let vc = story.instantiateViewController(withIdentifier: "MyFavsViewController") as! MyFavsViewController
-        let vc = TabBarVCShared.shared.MyFavsVC
+//        let vc = story.instantiateViewController(withIdentifier: "appNameViewController") as! appNameViewController
+        let vc = TabBarVCShared.shared.appNameVC
 //        UIApplication.shared.windows.first?.rootViewController = vc
 //        UIApplication.shared.windows.first?.makeKeyAndVisible()
         
@@ -166,18 +166,18 @@ class ConnectUserViewController: UIViewController {
     @IBAction func reportUserButtonAction(_ sender: UIButton) {
         let vc = UIStoryboard(name: "Main", bundle:nil).instantiateViewController(withIdentifier: "ReportPopUpViewController") as! ReportPopUpViewController
         vc.reportId = self.friendId
-        vc.isMyFavs = false
+        vc.isappName = false
         vc.modalPresentationStyle = .overCurrentContext
         vc.modalTransitionStyle = .crossDissolve
         self.present(vc, animated: true)
     }
     
-    @objc func reportMyFavsButtonAction(_ sender: UIButton) {
+    @objc func reportappNameButtonAction(_ sender: UIButton) {
         let favs = self.friendDetailsModel?.items?[sender.tag]
 
         let vc = UIStoryboard(name: "Main", bundle:nil).instantiateViewController(withIdentifier: "ReportPopUpViewController") as! ReportPopUpViewController
         vc.reportId = favs?.id ?? ""
-        vc.isMyFavs = true
+        vc.isappName = true
         vc.modalPresentationStyle = .overCurrentContext
         vc.modalTransitionStyle = .crossDissolve
         self.present(vc, animated: true)
@@ -494,7 +494,7 @@ extension ConnectUserViewController : UICollectionViewDelegate, UICollectionView
             cell.reportButton.tag = indexPath.item
             cell.editButton.addTarget(self, action: #selector(self.viewButtonAction(_:)), for: .touchUpInside)
             cell.gotoLinkButton.addTarget(self, action: #selector(self.gotoLinkButtonAction(_:)), for: .touchUpInside)
-            cell.reportButton.addTarget(self, action: #selector(self.reportMyFavsButtonAction(_:)), for: .touchUpInside)
+            cell.reportButton.addTarget(self, action: #selector(self.reportappNameButtonAction(_:)), for: .touchUpInside)
 
             return cell
         }else {

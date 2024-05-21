@@ -1,6 +1,6 @@
 //
 //  AllCategoryViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 19/07/22.
 //

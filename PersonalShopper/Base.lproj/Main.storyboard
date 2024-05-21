@@ -56,7 +56,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="bnE-Ro-BrE">
             <objects>
-                <viewController storyboardIdentifier="TabBarViewController" id="0Bg-hK-cPC" customClass="TabBarViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TabBarViewController" id="0Bg-hK-cPC" customClass="TabBarViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i9l-l6-Hzn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,7 +175,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="am3-ag-LFQ">
             <objects>
-                <viewController id="g1a-hc-Uii" customClass="WelcomeViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g1a-hc-Uii" customClass="WelcomeViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hxs-o2-ZPT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="Mdy-rP-E29">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1SW-qi-zEf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1SW-qi-zEf">
                                 <rect key="frame" x="77" y="143" width="255" height="93"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="93" id="8BJ-x8-7OZ"/>
@@ -280,7 +280,7 @@
         <!--Login View Controller-->
         <scene sceneID="5e2-tM-qwc">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z8J-8D-jvI" customClass="LoginViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z8J-8D-jvI" customClass="LoginViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eWj-iE-ryI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,13 +295,13 @@
                                     <constraint firstAttribute="height" constant="100" id="nrj-pI-7uZ"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvb-NU-Og3" customClass="TPKeyboardAvoidingScrollView" customModule="MYFAVS" customModuleProvider="target">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvb-NU-Og3" customClass="TPKeyboardAvoidingScrollView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WUd-go-eG1">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="920"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZQi-rT-7Tf">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZQi-rT-7Tf">
                                                 <rect key="frame" x="109" y="95" width="194" height="71"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="71" id="PqJ-mj-Mkd"/>
@@ -532,7 +532,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qfX-RY-GQ2" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qfX-RY-GQ2" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="156" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="iNq-aj-fwq"/>
@@ -550,7 +550,7 @@
                                                             <constraint firstAttribute="height" constant="1" id="Br8-sb-xWf"/>
                                                         </constraints>
                                                     </view>
-                                                    <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qyz-be-WYj" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qyz-be-WYj" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="228" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="ntX-1S-Ddv"/>
@@ -708,7 +708,7 @@
         <!--Forget Password View Controller-->
         <scene sceneID="S7U-Vf-m0C">
             <objects>
-                <viewController storyboardIdentifier="ForgetPasswordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KCQ-Y7-xl5" customClass="ForgetPasswordViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgetPasswordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KCQ-Y7-xl5" customClass="ForgetPasswordViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Mc-Lf-CVD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -732,7 +732,7 @@
                                             <action selector="backButtonAction:" destination="KCQ-Y7-xl5" eventType="touchUpInside" id="Emq-ih-GzD"/>
                                         </connections>
                                     </button>
-                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="afY-Ak-vjS">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="afY-Ak-vjS">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="eft-j2-j18"/>
@@ -769,13 +769,13 @@
                                     <constraint firstItem="M4K-hq-hgG" firstAttribute="top" secondItem="IiT-KU-aPc" secondAttribute="top" id="sGS-n2-HC2"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVR-uQ-Y54" customClass="TPKeyboardAvoidingScrollView" customModule="MYFAVS" customModuleProvider="target">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVR-uQ-Y54" customClass="TPKeyboardAvoidingScrollView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="97" width="414" height="799"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srD-VZ-6jS">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="799"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1ml-Eh-AxF">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1ml-Eh-AxF">
                                                 <rect key="frame" x="-140.5" y="0.0" width="695" height="74"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="74" id="hmO-OR-zFg"/>
@@ -798,7 +798,7 @@ reset password</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="a1K-bF-zim" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="a1K-bF-zim" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="156" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="r39-ae-Bhf"/>
@@ -926,7 +926,7 @@ reset password</string>
         <!--Signup View Controller-->
         <scene sceneID="hvV-7z-vkQ">
             <objects>
-                <viewController storyboardIdentifier="SignupViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xoz-ZR-m7q" customClass="SignupViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xoz-ZR-m7q" customClass="SignupViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iUJ-NI-dJF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -934,13 +934,13 @@ reset password</string>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="0tA-Ci-7lW">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsU-4P-CkG" customClass="TPKeyboardAvoidingScrollView" customModule="MYFAVS" customModuleProvider="target">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsU-4P-CkG" customClass="TPKeyboardAvoidingScrollView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uXn-O4-WlG">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="776"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="KMc-rZ-X4a">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="KMc-rZ-X4a">
                                                 <rect key="frame" x="109" y="95" width="194" height="71"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="71" id="g3q-sz-GvZ"/>
@@ -975,7 +975,7 @@ reset password</string>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </imageView>
-                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="GUm-vX-pVA" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="GUm-vX-pVA" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="40" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="eXY-7R-LR0"/>
@@ -993,7 +993,7 @@ reset password</string>
                                                             <constraint firstAttribute="height" constant="1" id="Xeo-eo-QNP"/>
                                                         </constraints>
                                                     </view>
-                                                    <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="OFg-wb-Csu" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="OFg-wb-Csu" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="112" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="YpW-Xl-NPp"/>
@@ -1011,7 +1011,7 @@ reset password</string>
                                                             <constraint firstAttribute="height" constant="1" id="rEF-Ie-Tuj"/>
                                                         </constraints>
                                                     </view>
-                                                    <textField opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="6cS-Gm-vXC" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="6cS-Gm-vXC" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="184" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="Dmw-Xq-Lrv"/>
@@ -1029,7 +1029,7 @@ reset password</string>
                                                             <constraint firstAttribute="height" constant="1" id="kdG-UZ-6Bj"/>
                                                         </constraints>
                                                     </view>
-                                                    <textField opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="L6o-Jj-nRF" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="L6o-Jj-nRF" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="256" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="DYw-mU-dXU"/>
@@ -1047,7 +1047,7 @@ reset password</string>
                                                             <constraint firstAttribute="height" constant="1" id="mjI-Aq-ZQC"/>
                                                         </constraints>
                                                     </view>
-                                                    <textField opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="+(code)XXXXXXXXXX" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2V4-4s-dPQ" customClass="FloatinLabelInput" customModule="MYFAVS" customModuleProvider="target">
+                                                    <textField opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="+(code)XXXXXXXXXX" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2V4-4s-dPQ" customClass="FloatinLabelInput" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="27" y="328" width="360" height="28"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="TB5-4b-fx3"/>
@@ -1262,7 +1262,7 @@ reset password</string>
         <!--Verification View Controller-->
         <scene sceneID="Yd2-Rh-cMD">
             <objects>
-                <viewController storyboardIdentifier="VerificationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FAv-fw-zMn" customClass="VerificationViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VerificationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FAv-fw-zMn" customClass="VerificationViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ero-f7-gGo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1309,7 +1309,7 @@ reset password</string>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rC7-pc-IkB">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="799"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="3ZW-3u-HLf">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="3ZW-3u-HLf">
                                                 <rect key="frame" x="109" y="0.0" width="194" height="74"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="74" id="awY-Fg-FIT"/>
@@ -1472,7 +1472,7 @@ reset password</string>
         <!--Menu View Controller-->
         <scene sceneID="GsN-DL-gYt">
             <objects>
-                <viewController storyboardIdentifier="MenuViewController" id="bK0-Na-PpV" customClass="MenuViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuViewController" id="bK0-Na-PpV" customClass="MenuViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="hGZ-Gq-PHc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1496,7 +1496,7 @@ reset password</string>
                                             <action selector="menuButtonAction:" destination="bK0-Na-PpV" eventType="touchUpInside" id="2VG-2i-1S2"/>
                                         </connections>
                                     </button>
-                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UBO-EB-z69">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UBO-EB-z69">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="MiU-Oe-wGL"/>
@@ -1540,7 +1540,7 @@ reset password</string>
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="280"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="JTS-tU-pdb">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="JTS-tU-pdb">
                                             <rect key="frame" x="40" y="20" width="334" height="130"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="130" id="7fJ-y1-wW6"/>
@@ -1622,7 +1622,7 @@ reset password</string>
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MenuTableViewCell" rowHeight="180" id="WCS-El-ipO" customClass="MenuTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MenuTableViewCell" rowHeight="180" id="WCS-El-ipO" customClass="MenuTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="330" width="414" height="180"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WCS-El-ipO" id="pCc-pk-w8r">
@@ -1724,7 +1724,7 @@ reset password</string>
                                             <constraint firstItem="MbY-xw-2sG" firstAttribute="top" secondItem="lta-8w-EVe" secondAttribute="top" id="s55-6D-ap7"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Right are reserved, these rights are the property of MyFavs and Digital Prodigee." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Av-VJ-6Kz">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Right are reserved, these rights are the property of appName and Digital Prodigee." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Av-VJ-6Kz">
                                         <rect key="frame" x="20" y="11" width="374" height="39.5"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1798,7 +1798,7 @@ reset password</string>
         <!--Home View Controller-->
         <scene sceneID="eoL-uN-OMQ">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xOs-rO-ZGi" customClass="HomeViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xOs-rO-ZGi" customClass="HomeViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zpc-QP-MC0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1861,7 +1861,7 @@ reset password</string>
                                             <constraint firstAttribute="height" constant="31" id="jem-Bm-ukr"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jL8-xF-AMz">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jL8-xF-AMz">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="DKe-s7-YLy"/>
@@ -2107,7 +2107,7 @@ reset password</string>
         <!--Category View Controller-->
         <scene sceneID="80n-xl-URX">
             <objects>
-                <viewController storyboardIdentifier="CategoryViewController" id="ggS-T6-DvQ" customClass="CategoryViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CategoryViewController" id="ggS-T6-DvQ" customClass="CategoryViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4ap-AD-CDF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2169,7 +2169,7 @@ reset password</string>
                                             <constraint firstAttribute="width" constant="31" id="EBe-Cs-r9W"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6qf-6i-ex4">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6qf-6i-ex4">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="B83-GY-coG"/>
@@ -2314,7 +2314,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="xhF-Tq-M7o" customClass="CategoryCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="xhF-Tq-M7o" customClass="CategoryCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="SSe-7H-iDP">
@@ -2569,7 +2569,7 @@ reset password</string>
         <!--All Category View Controller-->
         <scene sceneID="OP4-10-ev8">
             <objects>
-                <viewController storyboardIdentifier="AllCategoryViewController" id="WGA-DJ-bUi" customClass="AllCategoryViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AllCategoryViewController" id="WGA-DJ-bUi" customClass="AllCategoryViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4xV-r8-TC8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2618,7 +2618,7 @@ reset password</string>
                                             <constraint firstAttribute="height" constant="31" id="ikW-40-a3v"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="evk-57-go1">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="evk-57-go1">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="mhQ-Nh-XSg"/>
@@ -2712,7 +2712,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AllCategoryCollectionViewCell" id="Wvt-p7-YBI" customClass="AllCategoryCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AllCategoryCollectionViewCell" id="Wvt-p7-YBI" customClass="AllCategoryCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rU5-5X-5WZ">
@@ -2814,7 +2814,7 @@ reset password</string>
         <!--Sub Category View Controller-->
         <scene sceneID="xbH-ts-civ">
             <objects>
-                <viewController storyboardIdentifier="SubCategoryViewController" id="KLe-yI-AIk" customClass="SubCategoryViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubCategoryViewController" id="KLe-yI-AIk" customClass="SubCategoryViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P2d-Ag-MYp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2876,7 +2876,7 @@ reset password</string>
                                             <constraint firstAttribute="height" constant="31" id="pev-wb-2hD"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9ji-EI-6r6">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9ji-EI-6r6">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="kZu-hm-GHe"/>
@@ -3015,7 +3015,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="uPB-ud-vqa" customClass="CategoryCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="uPB-ud-vqa" customClass="CategoryCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4iF-Kk-a1l">
@@ -3270,7 +3270,7 @@ reset password</string>
         <!--Shoes View Controller-->
         <scene sceneID="WJg-SK-jUL">
             <objects>
-                <viewController storyboardIdentifier="ShoesViewController" id="diB-aT-Dpp" customClass="ShoesViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShoesViewController" id="diB-aT-Dpp" customClass="ShoesViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YS7-S0-tYr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3294,7 +3294,7 @@ reset password</string>
                                             <segue destination="Dg0-7e-Cz6" kind="presentation" id="hud-FX-m8y"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Glq-1C-ar5">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Glq-1C-ar5">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="0zI-hU-WZj"/>
@@ -3574,10 +3574,10 @@ reset password</string>
             </objects>
             <point key="canvasLocation" x="2959" y="-840"/>
         </scene>
-        <!--My Favs View Controller-->
+        <!--App Name View Controller-->
         <scene sceneID="tHy-Bl-mWz">
             <objects>
-                <viewController storyboardIdentifier="MyFavsViewController" id="Pfr-HE-2hX" customClass="MyFavsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="appNameViewController" id="Pfr-HE-2hX" customClass="appNameViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qod-5c-yvG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3614,7 +3614,7 @@ reset password</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-1r-GCE">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-1r-GCE">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="QyH-hc-jLL"/>
@@ -3690,7 +3690,7 @@ reset password</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyFavs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03y-nB-qp4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="appName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03y-nB-qp4">
                                 <rect key="frame" x="21" y="110" width="372" height="31"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3719,7 +3719,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavsCollectionViewCell" id="A2t-Sa-3Cm" customClass="FavsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavsCollectionViewCell" id="A2t-Sa-3Cm" customClass="FavsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mzR-WX-nkQ">
@@ -3895,7 +3895,7 @@ reset password</string>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Add to MyFavs"/>
+                                <state key="normal" title="Add to appName"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="10"/>
@@ -3954,7 +3954,7 @@ reset password</string>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myFavsCollectionView" destination="RyG-Vk-Wpx" id="MeM-NS-LVm"/>
+                        <outlet property="appNameCollectionView" destination="RyG-Vk-Wpx" id="MeM-NS-LVm"/>
                         <outlet property="notificationBadgeView" destination="wGP-li-n52" id="7di-Ma-Z0b"/>
                     </connections>
                 </viewController>
@@ -3962,10 +3962,10 @@ reset password</string>
             </objects>
             <point key="canvasLocation" x="706" y="31"/>
         </scene>
-        <!--My Favs Pop Up View Controller-->
+        <!--App Name Pop Up View Controller-->
         <scene sceneID="Ig2-TO-XJK">
             <objects>
-                <viewController storyboardIdentifier="MyFavsPopUpViewController" id="oEt-xp-61b" customClass="MyFavsPopUpViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="appNamePopUpViewController" id="oEt-xp-61b" customClass="appNamePopUpViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EMa-SF-Dcf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3976,7 +3976,7 @@ reset password</string>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popupBg" translatesAutoresizingMaskIntoConstraints="NO" id="KuN-cy-DfH">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="585"/>
                                     </imageView>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtN-WC-u0X" customClass="TPKeyboardAvoidingScrollView" customModule="MYFAVS" customModuleProvider="target">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtN-WC-u0X" customClass="TPKeyboardAvoidingScrollView" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="585"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="525-fA-y8N">
@@ -4093,7 +4093,7 @@ reset password</string>
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopUpImageCollectionViewCell" id="dkh-OA-HxB" customClass="PopUpImageCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopUpImageCollectionViewCell" id="dkh-OA-HxB" customClass="PopUpImageCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="83" height="83"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9g8-O1-Gh6">
@@ -4974,7 +4974,7 @@ reset password</string>
         <!--Profile View Controller-->
         <scene sceneID="xTb-9A-QCK">
             <objects>
-                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k7K-tz-JZp" customClass="ProfileViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k7K-tz-JZp" customClass="ProfileViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sp6-g5-kQP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5011,7 +5011,7 @@ reset password</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UoX-jg-dqG">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UoX-jg-dqG">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="OFl-Qp-Pnx"/>
@@ -5140,7 +5140,7 @@ reset password</string>
                                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
-                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemsCollectionViewCell" id="0Im-JH-pFe" customClass="ItemsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemsCollectionViewCell" id="0Im-JH-pFe" customClass="ItemsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1Jn-UW-s6k">
@@ -5749,7 +5749,7 @@ reset password</string>
         <!--Friends View Controller-->
         <scene sceneID="E35-o9-wn7">
             <objects>
-                <viewController storyboardIdentifier="FriendsViewController" id="Gmo-sS-icZ" customClass="FriendsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsViewController" id="Gmo-sS-icZ" customClass="FriendsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFr-vA-5PN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5786,7 +5786,7 @@ reset password</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="A3s-Q3-jgS">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="A3s-Q3-jgS">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="0dl-Og-Tb7"/>
@@ -5916,7 +5916,7 @@ reset password</string>
                                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                             </collectionViewFlowLayout>
                                                             <cells>
-                                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="6bc-B2-cG6" customClass="FriendsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="6bc-B2-cG6" customClass="FriendsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                                     <rect key="frame" x="12" y="0.0" width="390" height="114"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kGb-9N-fT1">
@@ -6079,7 +6079,7 @@ reset password</string>
                                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                             </collectionViewFlowLayout>
                                                             <cells>
-                                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="EPk-3L-VQn" customClass="FriendsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="EPk-3L-VQn" customClass="FriendsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                                     <rect key="frame" x="12" y="0.0" width="390" height="114"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="10f-xW-1xL">
@@ -6328,7 +6328,7 @@ reset password</string>
         <!--Connect User View Controller-->
         <scene sceneID="RgC-dr-VkQ">
             <objects>
-                <viewController storyboardIdentifier="ConnectUserViewController" id="jFp-1m-jrc" customClass="ConnectUserViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ConnectUserViewController" id="jFp-1m-jrc" customClass="ConnectUserViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NkE-IF-c4t">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6365,7 +6365,7 @@ reset password</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zsx-yN-FzF">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zsx-yN-FzF">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="7yj-lb-yW9"/>
@@ -6502,7 +6502,7 @@ reset password</string>
                                     <constraint firstAttribute="width" constant="60" id="RFa-Uc-Zso"/>
                                 </constraints>
                             </stackView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyFavs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPv-hk-6cM">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="appName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPv-hk-6cM">
                                 <rect key="frame" x="174" y="169" width="66.5" height="25.5"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -6559,7 +6559,7 @@ reset password</string>
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemsCollectionViewCell" id="kGD-79-u76" customClass="ItemsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemsCollectionViewCell" id="kGD-79-u76" customClass="ItemsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="m4x-07-WcI">
@@ -6714,7 +6714,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavsCollectionViewCell" id="lF6-fW-vl2" customClass="FavsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavsCollectionViewCell" id="lF6-fW-vl2" customClass="FavsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hOr-bS-CSc">
@@ -6955,7 +6955,7 @@ reset password</string>
         <!--View Item View Controller-->
         <scene sceneID="l9B-BF-BJ0">
             <objects>
-                <viewController storyboardIdentifier="ViewItemViewController" id="zNx-mQ-2dc" customClass="ViewItemViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewItemViewController" id="zNx-mQ-2dc" customClass="ViewItemViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eqD-VH-fQk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6979,7 +6979,7 @@ reset password</string>
                                             <segue destination="Dg0-7e-Cz6" kind="presentation" id="jyy-zR-hLt"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="OgW-LC-Cgc">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="OgW-LC-Cgc">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="d0M-mq-Hgd"/>
@@ -7268,7 +7268,7 @@ reset password</string>
         <!--Edit Item View Controller-->
         <scene sceneID="Y2d-sW-003">
             <objects>
-                <viewController storyboardIdentifier="EditItemViewController" id="ydw-xQ-qDE" customClass="EditItemViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditItemViewController" id="ydw-xQ-qDE" customClass="EditItemViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9AD-PA-hAN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -7292,7 +7292,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="ydw-xQ-qDE" eventType="touchUpInside" id="2Nd-lb-ObM"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fu2-mT-EgY">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fu2-mT-EgY">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="ShG-dX-6sx"/>
@@ -7354,7 +7354,7 @@ reset password</string>
                                         <rect key="frame" x="27" y="303.5" width="360" height="403.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemTableViewCell" id="fdL-ZE-ckt" customClass="ItemTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemTableViewCell" id="fdL-ZE-ckt" customClass="ItemTableViewCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="360" height="110"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fdL-ZE-ckt" id="7LV-VE-srd">
@@ -7982,7 +7982,7 @@ reset password</string>
         <!--Settings View Controller-->
         <scene sceneID="HfS-5D-J9t">
             <objects>
-                <viewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="40N-L2-GoM" customClass="SettingsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="40N-L2-GoM" customClass="SettingsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z7u-oN-ilZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8006,7 +8006,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="40N-L2-GoM" eventType="touchUpInside" id="n5f-nM-U51"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TIf-4M-xuB">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TIf-4M-xuB">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="jy2-9W-6tn"/>
@@ -8053,7 +8053,7 @@ reset password</string>
                                 <rect key="frame" x="0.0" y="208" width="414" height="574"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SettingsTableViewCell" id="ate-gu-FCv" customClass="SettingsTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SettingsTableViewCell" id="ate-gu-FCv" customClass="SettingsTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ate-gu-FCv" id="PNq-2T-8En">
@@ -8203,7 +8203,7 @@ reset password</string>
         <!--Sizing View Controller-->
         <scene sceneID="EEM-yA-K7u">
             <objects>
-                <viewController storyboardIdentifier="SizingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OI8-WP-SMf" customClass="SizingViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SizingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OI8-WP-SMf" customClass="SizingViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZuP-HG-AAk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8227,7 +8227,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="OI8-WP-SMf" eventType="touchUpInside" id="KNq-ek-oJC"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="X3x-7E-7Ht">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="X3x-7E-7Ht">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="FTE-5P-2Lo"/>
@@ -8296,7 +8296,7 @@ reset password</string>
                                         <rect key="frame" x="0.0" y="10" width="374" height="666"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SizingTableViewCell" rowHeight="364" id="Huw-Or-4A7" customClass="SizingTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SizingTableViewCell" rowHeight="364" id="Huw-Or-4A7" customClass="SizingTableViewCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="374" height="364"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Huw-Or-4A7" id="8MJ-Bd-2CW">
@@ -8389,7 +8389,7 @@ reset password</string>
         <!--Pending View Controller-->
         <scene sceneID="mg6-bY-W6m">
             <objects>
-                <viewController storyboardIdentifier="PendingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mz6-f0-kTa" customClass="PendingViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PendingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mz6-f0-kTa" customClass="PendingViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9RO-NI-rqS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8413,7 +8413,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="mz6-f0-kTa" eventType="touchUpInside" id="B8u-i5-5QX"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fLx-gq-fse">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fLx-gq-fse">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="9mo-Sq-lvJ"/>
@@ -8488,7 +8488,7 @@ reset password</string>
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="602"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PendingTableViewCell" rowHeight="120" id="hWt-fI-Zh1" customClass="PendingTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PendingTableViewCell" rowHeight="120" id="hWt-fI-Zh1" customClass="PendingTableViewCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="414" height="120"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hWt-fI-Zh1" id="qWi-sG-G2K">
@@ -8644,7 +8644,7 @@ reset password</string>
         <!--Terms Conditions View Controller-->
         <scene sceneID="McJ-5U-xSo">
             <objects>
-                <viewController storyboardIdentifier="TermsConditionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iq5-VJ-YSg" customClass="TermsConditionsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TermsConditionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iq5-VJ-YSg" customClass="TermsConditionsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RIN-td-LUi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8668,7 +8668,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="iq5-VJ-YSg" eventType="touchUpInside" id="zMm-Rt-UHJ"/>
                                         </connections>
                                     </button>
-                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qkN-Q7-i3z">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qkN-Q7-i3z">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="Lkq-Gp-l9g"/>
@@ -8748,7 +8748,7 @@ reset password</string>
         <!--Change Password View Controller-->
         <scene sceneID="WZh-5Q-qBq">
             <objects>
-                <viewController storyboardIdentifier="ChangePasswordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tPX-SJ-F2f" customClass="ChangePasswordViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChangePasswordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tPX-SJ-F2f" customClass="ChangePasswordViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="orW-gB-nb0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8772,7 +8772,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="tPX-SJ-F2f" eventType="touchUpInside" id="s51-Db-HaC"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jMi-GX-Pgz">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jMi-GX-Pgz">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="SXc-CZ-GWg"/>
@@ -8809,13 +8809,13 @@ reset password</string>
                                     <constraint firstItem="TYO-YN-FdZ" firstAttribute="leading" secondItem="Tmb-XN-3XV" secondAttribute="leading" id="daM-Et-CnE"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cv-fZ-nSw" customClass="TPKeyboardAvoidingScrollView" customModule="MYFAVS" customModuleProvider="target">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cv-fZ-nSw" customClass="TPKeyboardAvoidingScrollView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="97" width="414" height="799"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1V7-u5-fFy">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="504"/>
                                         <subviews>
-                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hRZ-Ef-h9F">
+                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hRZ-Ef-h9F">
                                                 <rect key="frame" x="-140.5" y="0.0" width="695" height="74"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="74" id="dBV-SC-wOJ"/>
@@ -8842,7 +8842,7 @@ reset password</string>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zN2-fG-G1S">
                                                                 <rect key="frame" x="0.0" y="0.0" width="360" height="32"/>
                                                                 <subviews>
-                                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Previous Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="kdd-XA-JOt" customClass="FloatingLabelChangePassword" customModule="MYFAVS" customModuleProvider="target">
+                                                                    <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Previous Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="kdd-XA-JOt" customClass="FloatingLabelChangePassword" customModule="appName" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="360" height="28"/>
                                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
@@ -8882,7 +8882,7 @@ reset password</string>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jgt-pa-whY">
                                                                 <rect key="frame" x="0.0" y="72" width="360" height="32"/>
                                                                 <subviews>
-                                                                    <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fyB-2Z-Jue" customClass="FloatingLabelChangePassword" customModule="MYFAVS" customModuleProvider="target">
+                                                                    <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fyB-2Z-Jue" customClass="FloatingLabelChangePassword" customModule="appName" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="360" height="28"/>
                                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
@@ -8922,7 +8922,7 @@ reset password</string>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lv7-gt-VjM">
                                                                 <rect key="frame" x="0.0" y="144" width="360" height="32"/>
                                                                 <subviews>
-                                                                    <textField opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-8J-LaT" customClass="FloatingLabelChangePassword" customModule="MYFAVS" customModuleProvider="target">
+                                                                    <textField opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-8J-LaT" customClass="FloatingLabelChangePassword" customModule="appName" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="360" height="28"/>
                                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
@@ -9057,7 +9057,7 @@ reset password</string>
         <!--Favs Details View Controller-->
         <scene sceneID="y8t-ca-2S7">
             <objects>
-                <viewController storyboardIdentifier="FavsDetailsViewController" id="i7o-5X-DoS" customClass="FavsDetailsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavsDetailsViewController" id="i7o-5X-DoS" customClass="FavsDetailsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DeI-1z-4iF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9081,7 +9081,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="i7o-5X-DoS" eventType="touchUpInside" id="7fG-QI-3x5"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xHg-j0-Iph">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xHg-j0-Iph">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="BBC-d6-OSq"/>
@@ -9329,7 +9329,7 @@ reset password</string>
         <!--Notifications View Controller-->
         <scene sceneID="4jr-Nh-u4v">
             <objects>
-                <viewController storyboardIdentifier="NotificationsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yUr-Jl-L3N" customClass="NotificationsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NotificationsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yUr-Jl-L3N" customClass="NotificationsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qze-mK-AhN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9353,7 +9353,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="yUr-Jl-L3N" eventType="touchUpInside" id="OeZ-fZ-geL"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vnh-xX-KXM">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vnh-xX-KXM">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="TMx-rp-MUC"/>
@@ -9400,7 +9400,7 @@ reset password</string>
                                 <rect key="frame" x="0.0" y="146" width="414" height="716"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationsTableViewCell" rowHeight="209" id="prw-MW-YPW" customClass="NotificationsTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationsTableViewCell" rowHeight="209" id="prw-MW-YPW" customClass="NotificationsTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="209"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="prw-MW-YPW" id="hD2-yO-vMf">
@@ -9529,7 +9529,7 @@ reset password</string>
         <!--Invite Friends View Controller-->
         <scene sceneID="Re4-pt-uIK">
             <objects>
-                <viewController storyboardIdentifier="InviteFriendsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4J1-2S-eNW" customClass="InviteFriendsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InviteFriendsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4J1-2S-eNW" customClass="InviteFriendsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GaC-84-K0k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9553,7 +9553,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="4J1-2S-eNW" eventType="touchUpInside" id="l0K-qk-VMD"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TBh-nt-X4K">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TBh-nt-X4K">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="VJX-oG-6Yd"/>
@@ -9661,7 +9661,7 @@ reset password</string>
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="614"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="InviteFriendTableViewCell" rowHeight="120" id="85e-Vz-Jy8" customClass="InviteFriendTableViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="InviteFriendTableViewCell" rowHeight="120" id="85e-Vz-Jy8" customClass="InviteFriendTableViewCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="414" height="120"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="85e-Vz-Jy8" id="bzA-vh-MPz">
@@ -9826,7 +9826,7 @@ reset password</string>
         <!--Friends Category View Controller-->
         <scene sceneID="eOG-4e-QLi">
             <objects>
-                <viewController storyboardIdentifier="FriendsCategoryViewController" id="2fi-9N-IkJ" customClass="FriendsCategoryViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsCategoryViewController" id="2fi-9N-IkJ" customClass="FriendsCategoryViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eJw-WR-nfF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9875,7 +9875,7 @@ reset password</string>
                                             <constraint firstAttribute="width" constant="31" id="tX2-HC-AMW"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8Gl-z5-kR0">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8Gl-z5-kR0">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="ScN-Oj-q93"/>
@@ -9987,7 +9987,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AllCategoryCollectionViewCell" id="F4X-Np-4Oj" customClass="AllCategoryCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AllCategoryCollectionViewCell" id="F4X-Np-4Oj" customClass="AllCategoryCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2Tk-Yq-ELd">
@@ -10093,7 +10093,7 @@ reset password</string>
         <!--Report Pop Up View Controller-->
         <scene sceneID="U28-ha-aUb">
             <objects>
-                <viewController storyboardIdentifier="ReportPopUpViewController" id="uX7-sU-4Ci" customClass="ReportPopUpViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReportPopUpViewController" id="uX7-sU-4Ci" customClass="ReportPopUpViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YEl-DQ-ioC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10160,7 +10160,7 @@ reset password</string>
                                                             <action selector="commonButtonAction:" destination="uX7-sU-4Ci" eventType="touchUpInside" id="El6-7j-GA7"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's posting content that shouldn't be on MyFavs." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61A-LT-ZbR">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's posting content that shouldn't be on appName." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61A-LT-ZbR">
                                                         <rect key="frame" x="40" y="10" width="274" height="108"/>
                                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -10393,7 +10393,7 @@ reset password</string>
         <!--More Friends View Controller-->
         <scene sceneID="p5d-wZ-cgU">
             <objects>
-                <viewController storyboardIdentifier="MoreFriendsViewController" id="QHA-Uj-B7A" customClass="MoreFriendsViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoreFriendsViewController" id="QHA-Uj-B7A" customClass="MoreFriendsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2hq-Mo-4tW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10430,7 +10430,7 @@ reset password</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="adT-yy-Pyg">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="adT-yy-Pyg">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="Koq-3B-zF8"/>
@@ -10555,7 +10555,7 @@ reset password</string>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="91Y-95-3Va" customClass="FriendsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="91Y-95-3Va" customClass="FriendsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="-15" y="0.0" width="390" height="114"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Fpo-4Z-Gbf">
@@ -10722,7 +10722,7 @@ reset password</string>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="GuN-xw-ELK" customClass="FriendsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FriendsCollectionViewCell" id="GuN-xw-ELK" customClass="FriendsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="-15" y="0.0" width="390" height="114"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="q0H-i5-ujE">
@@ -10955,7 +10955,7 @@ reset password</string>
         <!--More Sizes View Controller-->
         <scene sceneID="K9m-Ug-mnb">
             <objects>
-                <viewController storyboardIdentifier="MoreSizesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="n7S-Ve-A4f" customClass="MoreSizesViewController" customModule="MYFAVS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoreSizesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="n7S-Ve-A4f" customClass="MoreSizesViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J51-OY-0Lo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10979,7 +10979,7 @@ reset password</string>
                                             <action selector="backButtonAction:" destination="n7S-Ve-A4f" eventType="touchUpInside" id="BO4-dl-8tH"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MYFAVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8xJ-dt-rGP">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appnameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8xJ-dt-rGP">
                                         <rect key="frame" x="157" y="4.5" width="100" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="030-Jw-Fhd"/>
@@ -11032,7 +11032,7 @@ reset password</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemsCollectionViewCell" id="3d7-25-Tiw" customClass="ItemsCollectionViewCell" customModule="MYFAVS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemsCollectionViewCell" id="3d7-25-Tiw" customClass="ItemsCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lwj-pH-0zl">
@@ -11212,7 +11212,7 @@ reset password</string>
         <segue reference="DPv-cO-zgL"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="MYFAVLogo" width="695" height="250"/>
+        <image name="appnameLogo" width="695" height="250"/>
         <image name="add" width="50" height="50"/>
         <image name="addGroup" width="30" height="30"/>
         <image name="apple" width="10" height="10"/>

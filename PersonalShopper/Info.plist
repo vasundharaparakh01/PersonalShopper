@@ -25,14 +25,14 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.digitalpro.myFavs</string>
+				<string>com.digitalpro.appName</string>
 			</array>
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
 	<string>1377101179762729</string>
 	<key>FacebookDisplayName</key>
-	<string>MYFAVS</string>
+	<string>appName</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>

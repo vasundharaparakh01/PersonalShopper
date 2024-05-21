@@ -1,6 +1,6 @@
 //
 //  MenuViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 13/06/22.
 //

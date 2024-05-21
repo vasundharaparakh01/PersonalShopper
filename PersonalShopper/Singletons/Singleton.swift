@@ -98,7 +98,7 @@ class TabBarVCShared {
     
     lazy var HomeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
     
-    lazy var MyFavsVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MyFavsViewController") as! MyFavsViewController
+    lazy var appNameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "appNameViewController") as! appNameViewController
     
     lazy var MyFriendsVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FriendsViewController") as! FriendsViewController
     

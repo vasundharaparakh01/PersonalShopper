@@ -1,6 +1,6 @@
 //
 //  Enums.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 09/06/22.
 //
@@ -41,7 +41,7 @@ enum TabItem: String, CaseIterable {
         case .home:
             return HomeViewController()
         case .favourite:
-            return MyFavsViewController()
+            return appNameViewController()
         case .addMember:
             return HomeViewController()
         case .profile:

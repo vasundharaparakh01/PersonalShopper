@@ -1,6 +1,6 @@
 //
 //  ReportPopUpViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 22/08/22.
 //
@@ -20,7 +20,7 @@ class ReportPopUpViewController: UIViewController {
     @IBOutlet weak var answer2View: UIView!
     @IBOutlet weak var textView: UITextView!
     
-    var isMyFavs = false
+    var isappName = false
     var msgStr = ""
     var isOther = false
     var reportId = ""
@@ -76,7 +76,7 @@ extension ReportPopUpViewController {
     func initialSetup() {
         self.textBgView.isHidden = true
         
-        if self.isMyFavs {
+        if self.isappName {
             self.questionLabel.text = "Why are you reporting this favs?"
             self.answer2View.isHidden = true
         }else {
@@ -102,8 +102,8 @@ extension ReportPopUpViewController {
         
         var parameters = [String: Any]()
         
-        if self.isMyFavs {
-            parameters = ["myFavId": id, "message": message]
+        if self.isappName {
+            parameters = ["appnameId": id, "message": message]
         }else {
             parameters = ["reportedTo": id, "message": message]
         }

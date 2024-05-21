@@ -1,6 +1,6 @@
 //
 //  OtpScreen.swift
-//  MYFAVS
+//  appName
 //
 //  Created by Chandani Barsagade on 5/31/22.
 //

@@ -1,6 +1,6 @@
 //
 //  FavsCollectionViewCell.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 14/06/22.
 //

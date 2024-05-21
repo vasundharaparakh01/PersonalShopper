@@ -1,6 +1,6 @@
 //
 //  EditItemViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 17/06/22.
 //
@@ -151,8 +151,8 @@ class EditItemViewController: UIViewController {
     
     @IBAction func heartButtonAction(_ sender: Any) {
         let story = UIStoryboard(name: "Main", bundle:nil)
-//        let vc = story.instantiateViewController(withIdentifier: "MyFavsViewController") as! MyFavsViewController
-        let vc = TabBarVCShared.shared.MyFavsVC
+//        let vc = story.instantiateViewController(withIdentifier: "appNameViewController") as! appNameViewController
+        let vc = TabBarVCShared.shared.appNameVC
         //        UIApplication.shared.windows.first?.rootViewController = vc
         //        UIApplication.shared.windows.first?.makeKeyAndVisible()
         //

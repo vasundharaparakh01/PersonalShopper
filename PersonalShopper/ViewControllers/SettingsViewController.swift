@@ -1,6 +1,6 @@
 //
 //  SettingsViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 23/06/22.
 //
@@ -78,7 +78,7 @@ extension SettingsViewController {
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
               let delegate = windowScene.delegate as? SceneDelegate, let window = delegate.window else { return }
 
-        hud.label.text = "Syncing contacts to fetch your recommended friends on MyFavs!"
+        hud.label.text = "Syncing contacts to fetch your recommended friends on appName!"
         hud.isUserInteractionEnabled = false
         window.isUserInteractionEnabled = false
 
@@ -163,7 +163,7 @@ extension SettingsViewController {
         let url = BaseUrl + kSyncContactApi
         let parameters: [String: Any] = ["phonebook": phoneArray]
 
-        APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on MyFavs!", url: url, params: parameters, view: self.view) { success, response, responseJson, errorMsg  in
+        APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on appName!", url: url, params: parameters, view: self.view) { success, response, responseJson, errorMsg  in
 
             if success {
                 if let data = response {

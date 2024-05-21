@@ -1,6 +1,6 @@
 //
 //  PushNotificationHelper.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 18/07/22.
 //

@@ -1,6 +1,6 @@
 //
 //  MoreSizesViewController.swift
-//  MYFAVS
+//  appName
 //
 //  Created by iOS Dev on 31/08/22.
 //

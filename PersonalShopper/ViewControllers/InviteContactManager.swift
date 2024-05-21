@@ -1,6 +1,6 @@
 //
 //  InviteContactManager.swift
-//  MYFAVS
+//  appName
 //
 //  Created by macbook on 23/12/22.
 //
@@ -87,7 +87,7 @@ class InviteContactManager {
         let url = BaseUrl + kSyncContactApi
         let parameters: [String: Any] = ["phonebook": phoneArray]
         DispatchQueue.main.async {
-            APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on MyFavs!", url: url, params: parameters, view: UIView()) { success, response, responseJson, errorMsg  in
+            APIService.sharedInstance.postDataOnServerByAccessToken(loadingText: "Syncing contacts to fetch your recommended friends on appName!", url: url, params: parameters, view: UIView()) { success, response, responseJson, errorMsg  in
                 
                 if success {
                     if let data = response {
